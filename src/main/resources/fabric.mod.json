@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "create_blazing_industry",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Create Blazing Industry",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "whynotdogie"
   ],
   "contact": {
     "sources": "https://github.com/Fabricators-of-Create/create-fabric-addon-template"
   },
   "license": "CC0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/create_blazing_industry/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "dev.dogie.create_blazing_industry.CreateBlazingIndustry"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "create_blazing_industry.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
